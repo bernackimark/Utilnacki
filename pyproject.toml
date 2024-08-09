@@ -1,0 +1,10 @@
+[project]
+name = "utilnacki"
+version = "0.0.1"
+authors = ["Mark Bernacki <bernackimark@gmail.com>"]
+license = "MIT"
+requires-python = "^3.11"
+dependencies = [
+"pandas"
+]
+
