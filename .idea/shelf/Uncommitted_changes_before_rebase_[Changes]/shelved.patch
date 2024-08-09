@@ -1,0 +1,233 @@
+Index: .idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml
+new file mode 100644
+--- /dev/null	(date 1723229694253)
++++ b/.idea/inspectionProfiles/Project_Default.xml	(date 1723229694253)
+@@ -0,0 +1,55 @@
++<component name="InspectionProjectProfileManager">
++  <profile version="1.0">
++    <option name="myName" value="Project Default" />
++    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
++      <option name="ignoredPackages">
++        <value>
++          <list size="25">
++            <item index="0" class="java.lang.String" itemvalue="SQLAlchemy" />
++            <item index="1" class="java.lang.String" itemvalue="connexion" />
++            <item index="2" class="java.lang.String" itemvalue="swagger-ui-bundle" />
++            <item index="3" class="java.lang.String" itemvalue="six" />
++            <item index="4" class="java.lang.String" itemvalue="Werkzeug" />
++            <item index="5" class="java.lang.String" itemvalue="clickclick" />
++            <item index="6" class="java.lang.String" itemvalue="PyYAML" />
++            <item index="7" class="java.lang.String" itemvalue="packaging" />
++            <item index="8" class="java.lang.String" itemvalue="MarkupSafe" />
++            <item index="9" class="java.lang.String" itemvalue="requests" />
++            <item index="10" class="java.lang.String" itemvalue="click" />
++            <item index="11" class="java.lang.String" itemvalue="Flask-SQLAlchemy" />
++            <item index="12" class="java.lang.String" itemvalue="Jinja2" />
++            <item index="13" class="java.lang.String" itemvalue="attrs" />
++            <item index="14" class="java.lang.String" itemvalue="pyrsistent" />
++            <item index="15" class="java.lang.String" itemvalue="flask-marshmallow" />
++            <item index="16" class="java.lang.String" itemvalue="certifi" />
++            <item index="17" class="java.lang.String" itemvalue="charset-normalizer" />
++            <item index="18" class="java.lang.String" itemvalue="urllib3" />
++            <item index="19" class="java.lang.String" itemvalue="pyparsing" />
++            <item index="20" class="java.lang.String" itemvalue="jsonschema" />
++            <item index="21" class="java.lang.String" itemvalue="Flask" />
++            <item index="22" class="java.lang.String" itemvalue="idna" />
++            <item index="23" class="java.lang.String" itemvalue="inflection" />
++            <item index="24" class="java.lang.String" itemvalue="typing_extensions" />
++          </list>
++        </value>
++      </option>
++    </inspection_tool>
++    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
++      <option name="ignoredErrors">
++        <list>
++          <option value="E131" />
++          <option value="E302" />
++        </list>
++      </option>
++    </inspection_tool>
++    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
++      <option name="ignoredIdentifiers">
++        <list>
++          <option value="cards.Set.__or__" />
++          <option value="cards.Property.__or__" />
++          <option value="cards.Card.__or__" />
++        </list>
++      </option>
++    </inspection_tool>
++  </profile>
++</component>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1723229694349)
++++ b/.idea/inspectionProfiles/profiles_settings.xml	(date 1723229694349)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1723230760703)
++++ b/.idea/misc.xml	(date 1723230760703)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Black">
++    <option name="sdkName" value="Python 3.11 (Utilnacki)" />
++  </component>
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (Utilnacki)" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1723230760699)
++++ b/.idea/workspace.xml	(date 1723230760699)
+@@ -0,0 +1,85 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
++  <component name="ChangeListManager">
++    <list default="true" id="a5fe3323-5ed4-47ee-92c8-137d5efe83f7" name="Changes" comment="Initial Commit">
++      <change afterPath="$PROJECT_DIR$/.idea/Utilnacki.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Python Script" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="ProjectColorInfo"><![CDATA[{
++  "associatedIndex": 7
++}]]></component>
++  <component name="ProjectId" id="2kQxdXfArmZn3CvSGwju7SMhHtd" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true"
++  }
++}]]></component>
++  <component name="SharedIndexes">
++    <attachedChunks>
++      <set>
++        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
++      </set>
++    </attachedChunks>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="a5fe3323-5ed4-47ee-92c8-137d5efe83f7" name="Changes" comment="" />
++      <created>1723229689545</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1723229689545</updated>
++    </task>
++    <task id="LOCAL-00001" summary="Initial Commit">
++      <option name="closed" value="true" />
++      <created>1723230137083</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1723230137083</updated>
++    </task>
++    <task id="LOCAL-00002" summary="Initial Commit">
++      <option name="closed" value="true" />
++      <created>1723230161229</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1723230161229</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
++    <servers />
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Initial Commit" />
++    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1723229694314)
++++ b/.idea/modules.xml	(date 1723229694314)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/Utilnacki.iml" filepath="$PROJECT_DIR$/.idea/Utilnacki.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1723229694364)
++++ b/.idea/vcs.xml	(date 1723229694364)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
