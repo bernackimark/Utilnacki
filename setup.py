@@ -7,7 +7,7 @@ setup(
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     long_description="My long description",
-    # long_description_content_type="text/markdown",
+    long_description_content_type="text/markdown",
     url="https://github.com/bernackimark/utilnacki",
     author="Bernacki",
     author_email="bernackimark@gmail.com",
